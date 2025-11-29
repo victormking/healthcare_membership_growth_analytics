@@ -30,7 +30,7 @@ Clone the repo and open SQL Server Management Studio (SSMS) from the project roo
 ```sql
 CREATE DATABASE healthcare_growth;
 GO
----
+```
 
 ## 🧭 Mini ERD (Schema Overview)
 
