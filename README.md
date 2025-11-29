@@ -20,6 +20,7 @@ The dataset reflects a realistic **healthcare association CRM environment**, sim
 </p>
 
 ---
+
 ## 🚀 Quickstart
 
 Clone the repo and open SQL Server Management Studio (SSMS) from the project root:
@@ -29,12 +30,3 @@ Clone the repo and open SQL Server Management Studio (SSMS) from the project roo
 ```sql
 CREATE DATABASE healthcare_growth;
 GO
-
-```mermaid
-erDiagram
-  organizations ||--o{ members : contains
-  members ||--o{ engagement_events : engages
-  members ||--o{ product_sales : purchases
-  leads ||--o{ members : converts
-  campaigns ||--o{ campaign_touches : delivers
-  leads ||--o{ campaign_touches : receives
