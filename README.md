@@ -89,5 +89,29 @@ From these 7 raw tables, we engineered **7 analytical views** in SQL Server, eac
 Each view is created via T-SQL in SQL Server and can be exported as CSV for validation or loaded directly into Power BI.
 
 ---
+## 📊 Analytical Workflow (Stage 2 → Q01–Q14)
+
+After building the SQL semantic layer, the project answers **14 structured analytical questions**, each representing a real-world KPI used by healthcare membership, marketing, and growth teams.
+
+| # | Business Question | Output |
+|---|--------------------|---------|
+| **Q01** | Monthly lead volume | `q01_leads_by_month.csv` |
+| **Q02** | Lead → Member conversion rate | `q02_conversion_rate.csv` |
+| **Q03** | Average days to convert | `q03_days_to_convert.csv` |
+| **Q04** | Conversion rate by channel | `q04_channel_conversion.csv` |
+| **Q05** | Campaign-level CPA | `q05_campaign_cpa.csv` |
+| **Q06** | Campaign ROI | `q06_campaign_roi.csv` |
+| **Q07** | Channel efficiency (CPA + ROI) | `q07_channel_efficiency.csv` |
+| **Q08** | Engagement tier distribution | `q08_engagement_tiers.csv` |
+| **Q09** | Events per member | `q09_events_per_member.csv` |
+| **Q10** | Revenue by product category | `q10_revenue_by_product.csv` |
+| **Q11** | ARPO (Average Revenue Per Organization) | `q11_arpo.csv` |
+| **Q12** | Renewal rate by engagement tier | `q12_renewal_by_engagement.csv` |
+| **Q13** | Time-to-convert by channel | `q13_days_to_convert_by_channel.csv` |
+| **Q14** | High-intent channel analysis | `q14_high_intent_channels.csv` |
+
+Each KPI was exported to `/data/answers/` in CSV format to support dashboard development and further analysis.
+
+---
 
 
