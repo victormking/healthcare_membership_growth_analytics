@@ -34,7 +34,7 @@ GO
 
 ## 🧭 Mini ERD (Schema Overview)
 
-```erDiagram
+```mermaid  
   organizations ||--o{ members : contains
   members ||--o{ engagement_events : engages
   members ||--o{ product_sales : purchases
