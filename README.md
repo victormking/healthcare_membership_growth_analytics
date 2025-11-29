@@ -42,7 +42,7 @@ erDiagram
   leads ||--o{ members : converts
   campaigns ||--o{ campaign_touches : delivers
   leads ||--o{ campaign_touches : receives
----
+
 
 ## 🎯 Project Objectives
 
