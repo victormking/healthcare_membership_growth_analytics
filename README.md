@@ -32,16 +32,15 @@ CREATE DATABASE healthcare_growth;
 GO
 ---
 
-
 ## 🧭 Mini ERD (Schema Overview)
 
-```mermaid
-erDiagram
-  members ||--o{ accounts : has
-  accounts ||--o{ transactions : records
-  members ||--o{ member_events : performs
-  campaigns ||--o{ campaign_touch : sends
-  members ||--o{ campaign_touch : receives
+```erDiagram
+  organizations ||--o{ members : contains
+  members ||--o{ engagement_events : engages
+  members ||--o{ product_sales : purchases
+  leads ||--o{ members : converts
+  campaigns ||--o{ campaign_touches : delivers
+  leads ||--o{ campaign_touches : receives
 ```
 
 
