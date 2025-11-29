@@ -1,0 +1,103 @@
+"0","# Reload to be explicit
+engagement_events <- read.csv(""data/schema/engagement_events.csv"",
+                              stringsAsFactors = FALSE)
+# Reload to be explicit
+engagement_events <- read.csv(""data/schema/engagement_events.csv"",
+                              stringsAsFactors = FALSE)
+# Convert timestamp from chr -> datetime
+engagement_events$event_timestamp <- as.POSIXct(
+  engagement_events$event_timestamp,
+  tz = ""UTC""
+)
+# Convert timestamp from chr -> datetime
+engagement_events$event_timestamp <- as.POSIXct(
+  engagement_events$event_timestamp,
+  tz = ""UTC""
+)
+# (Optional but explicit)
+engagement_events$event_id  <- as.integer(engagement_events$event_id)
+engagement_events$member_id <- as.integer(engagement_events$member_id)
+engagement_events$member_id <- as.integer(engagement_events$member_id)
+# Check structure
+str(engagement_events)
+"
+"1","'data.frame':	"
+"1",""
+"1","359872"
+"1",""
+"1"," obs. of  "
+"1",""
+"1","4"
+"1",""
+"1"," variable"
+"1",""
+"1","s"
+"1",""
+"1",":"
+"1",""
+"1","
+"
+"1"," "
+"1",""
+"1","$ "
+"1",""
+"1","event_id       "
+"1",""
+"1",":"
+"1"," int  "
+"1",""
+"1","333359 283166 143557 123056 339447 57766 57757 299813 179252 304262"
+"1",""
+"1"," ..."
+"1",""
+"1","
+"
+"1"," "
+"1",""
+"1","$ "
+"1",""
+"1","member_id      "
+"1",""
+"1",":"
+"1"," int  "
+"1",""
+"1","27786 23623 11975 10244 28279 4811 4811 24999 14972 25369"
+"1",""
+"1"," ..."
+"1",""
+"1","
+"
+"1"," "
+"1",""
+"1","$ "
+"1",""
+"1","event_type     "
+"1",""
+"1",":"
+"1"," chr  "
+"1",""
+"1","""Dashboard Viewed"" ""Webinar Attended"" ""Dashboard Viewed"" ""Dashboard Viewed"""
+"1",""
+"1"," ..."
+"1",""
+"1","
+"
+"1"," "
+"1",""
+"1","$ "
+"1",""
+"1","event_timestamp"
+"1",""
+"1",":"
+"1"," "
+"1",""
+"1","POSIXct"
+"1",""
+"1",", format: "
+"1",""
+"1","""2016-01-03 06:27:36"" ""2016-01-03 07:54:19"" ""2016-01-03 21:25:04"" ""2016-01-05 07:50:57"""
+"1",""
+"1"," ..."
+"1",""
+"1","
+"
