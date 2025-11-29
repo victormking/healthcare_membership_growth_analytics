@@ -34,14 +34,15 @@ GO
 
 ## 🧭 Mini ERD (Schema Overview)
 
-```mermaid  
+```mermaid
+erDiagram
   organizations ||--o{ members : contains
   members ||--o{ engagement_events : engages
   members ||--o{ product_sales : purchases
   leads ||--o{ members : converts
   campaigns ||--o{ campaign_touches : delivers
   leads ||--o{ campaign_touches : receives
-```
+---
 
 ## 🎯 Project Objectives
 
@@ -51,7 +52,6 @@ GO
 4. **Measure revenue and product performance** across organizations, members, and product categories.  
 5. **Understand renewal likelihood** based on engagement, touchpoints, and lifetime behavior.  
 6. **Simulate an industry-standard analytics workflow** used by healthcare associations, membership groups, and marketing teams.
-
 ---
 
 **## 🧩 Dataset Schema
