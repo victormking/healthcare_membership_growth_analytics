@@ -190,3 +190,7 @@ healthcare_membership_growth/
 ├── .gitignore
 └── README.md
 
+---
+
+© 2025 Victor King — Project for portfolio demonstration.  
+Licensed under the [MIT License](./LICENSE).
