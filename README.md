@@ -177,3 +177,5 @@ The final Power BI dashboard translates the SQL-based KPI engine into clear, act
 These visuals combine to form a complete story of **acquisition → engagement → revenue → renewal**, mirroring the workflow used by real-world healthcare membership organizations.
 
 ---
+
+## 🧱 Folder Structure
