@@ -151,3 +151,29 @@ This stage summarizes key insights identified across the acquisition, engagement
 
 ---
 
+## 📈 Stage 4 — Dashboards & Visualization (Power BI)
+
+The final Power BI dashboard translates the SQL-based KPI engine into clear, actionable visual insights for marketing, membership, and leadership teams. The dashboard consists of **two pages**, each focused on a different part of the growth lifecycle.
+
+### **Page 1 — Growth Overview**
+- Monthly lead volume  
+- Lead → Member conversion rate  
+- Channel-level conversion performance  
+- Campaign CPA & ROI  
+- Revenue by product category  
+- KPI cards summarizing:
+  - Total leads  
+  - Total conversions  
+  - Average days to convert  
+  - Highest-performing channels  
+
+### **Page 2 — Engagement & Retention**
+- Engagement tier distribution (Low / Medium / High)  
+- Events per member  
+- Renewal rate by engagement tier  
+- Organization-level revenue metrics (ARPO)  
+- Retention vs. engagement scatterplots  
+
+These visuals combine to form a complete story of **acquisition → engagement → revenue → renewal**, mirroring the workflow used by real-world healthcare membership organizations.
+
+---
