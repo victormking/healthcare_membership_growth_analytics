@@ -179,3 +179,14 @@ These visuals combine to form a complete story of **acquisition → engagement �
 ---
 
 ## 🧱 Folder Structure
+
+```plaintext
+healthcare_membership_growth/
+├── data/                     # Raw tables + exported view & KPI outputs
+├── sql_views/                # SQL scripts for all Stage 1 engineered views
+├── sql_queries/              # Stage 2 analytical KPI queries (Q01–Q14)
+├── powerbi/                  # Power BI dashboard files (PBIX)
+├── docs/                     # Insights, notes, and supporting documentation
+├── .gitignore
+└── README.md
+
