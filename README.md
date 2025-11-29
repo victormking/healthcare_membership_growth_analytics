@@ -114,4 +114,40 @@ Each KPI was exported to `/data/answers/` in CSV format to support dashboard dev
 
 ---
 
+## 💡 Stage 3 — Insights & Recommendations
+
+This stage summarizes key insights identified across the acquisition, engagement, revenue, and renewal lifecycle of the healthcare membership model.
+
+### **1. Funnel Performance**
+- ~60,000 leads across all channels  
+- ~14,940 conversions  
+- Overall conversion rate ≈ **25%**  
+- Funnel is healthy but overly dependent on a small set of high-performing channels
+
+### **2. Channel Effectiveness**
+- **Email** is the strongest channel by both volume and efficiency  
+- **Paid Ads** scale well but deliver lower ROI  
+- **Webinars** are high-intent but underfunded  
+- **Referrals + Website** deliver excellent quality leads despite lower volume  
+- **Social** produces the weakest funnel performance
+
+### **3. Time-to-Convert**
+- Average time to convert ≈ **49 days**  
+- Conversion velocity is similar across channels, indicating a consistent, consideration-driven buyer journey
+
+### **4. Strategic Recommendations**
+- Reallocate **12–18%** of budget toward high-intent channels  
+- Build “Decision Assist” nurture sequences to accelerate conversions  
+- Expand segmentation to increase relevance of email campaigns  
+- Boost awareness for Referral and Webinar channels  
+- Streamline mid-funnel experience to shorten the 49-day cycle
+
+### **5. 90-Day Plan**
+- Channel budget rebalancing  
+- Funnel acceleration program  
+- Advanced segmentation rollout  
+- Awareness expansion  
+- Enhanced reporting cadence for growth & leadership teams  
+
+---
 
