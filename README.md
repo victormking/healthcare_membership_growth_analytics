@@ -43,4 +43,15 @@ GO
   leads ||--o{ campaign_touches : receives
 ```
 
+## 🎯 Project Objectives
+
+1. **Build a unified membership analytics framework** across multiple healthcare CRM data sources.  
+2. **Evaluate lead acquisition and conversion performance** across channels and campaigns.  
+3. **Analyze engagement behavior** and segment members into activity tiers for monitoring and retention.  
+4. **Measure revenue and product performance** across organizations, members, and product categories.  
+5. **Understand renewal likelihood** based on engagement, touchpoints, and lifetime behavior.  
+6. **Simulate an industry-standard analytics workflow** used by healthcare associations, membership groups, and marketing teams.
+
+---
+
 
