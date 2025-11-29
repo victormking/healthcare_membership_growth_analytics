@@ -72,3 +72,22 @@ All records are **synthetic**, generated to mimic a realistic healthcare members
 
 ---
 
+## 🏗️ Data Engineering (Stage 1 → Views)
+
+From these 7 raw tables, we engineered **7 analytical views** in SQL Server, each designed to support downstream growth, engagement, and retention analysis:
+
+| View | Purpose | Engineered Columns |
+|------|----------|--------------------|
+| `v_lead_funnel` | Centralized view of the lead → member funnel across channels and campaigns | `lead_id`, `member_id`, `channel`, `campaign_id`, `inquiry_date`, `conversion_date`, `days_to_convert`, `converted_flag` |
+| `v_campaign_performance` | Campaign-level performance and economics for marketing and growth teams | `campaign_id`, `channel`, `spend`, `lead_count`, `conversion_count`, `conv_rate`, `cpa`, `roi` |
+| `v_channel_performance` | Channel rollups to compare acquisition efficiency and velocity | `channel`, `lead_count`, `conversion_count`, `conv_rate`, `avg_days_to_convert`, `cpa`, `roi` |
+| `v_engagement_summary` | Member-level engagement features derived from event logs | `member_id`, `events_count`, `last_event_date`, `days_since_last_event`, `engagement_tier` (e.g., Low/Med/High) |
+| `v_revenue_summary` | Revenue aggregation across products, members, and organizations | `organization_id`, `member_id`, `product_category`, `revenue_total`, `revenue_12m`, `arpo` |
+| `v_member_360` | Unified member profile combining funnel, engagement, and revenue features | `member_id`, `organization_id`, `channel_first_touch`, `days_to_convert`, `engagement_tier`, `lifetime_value`, `renewal_flag` |
+| `v_retention_cohorts` | Cohort-style view to track renewal and churn behavior over time | `cohort_month`, `member_id`, `renewal_flag`, `churn_flag`, `renewal_cycle`, `renewal_rate` |
+
+Each view is created via T-SQL in SQL Server and can be exported as CSV for validation or loaded directly into Power BI.
+
+---
+
+
