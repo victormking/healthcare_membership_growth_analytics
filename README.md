@@ -54,4 +54,21 @@ GO
 
 ---
 
+**## 🧩 Dataset Schema
+
+The raw data consists of **7 base CSVs**, each representing a key operational dataset in the healthcare membership lifecycle:
+
+| File | Description |
+|------|-------------|
+| `organizations.csv` | Organization-level accounts (practice, clinic, health system), size, industry, and region |
+| `members.csv` | Individual members linked to organizations, with join dates and role information |
+| `leads.csv` | Top-of-funnel lead records with source, channel, inquiry date, and conversion status |
+| `campaigns.csv` | Marketing campaign metadata including channel, budget, start/end dates, and objectives |
+| `campaign_touches.csv` | Touch-level interactions (email, webinar invites, ads) with open/click/response flags |
+| `engagement_events.csv` | Webinars, logins, course completions, downloads, and other member engagement events |
+| `product_sales.csv` | Membership purchases, renewals, and product revenue by member and organization |
+
+All records are **synthetic**, generated to mimic a realistic healthcare membership CRM while avoiding any real PII.
+
+---
 
